@@ -6,7 +6,6 @@ Welcome to the **LangChain Tutorials** repository! This repository contains a co
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Installation](#installation)
 - [Tutorials](#tutorials)
 - [Contributing](#contributing)
 - [License](#license)
@@ -25,35 +24,6 @@ If you're new to LangChain, the best place to start is by following the introduc
 - Implement document retrieval and embeddings
 - Integrate with external knowledge sources for enhanced question answering
 
-## Installation
-
-To get started with LangChain and run the tutorials locally, you'll need to install the required dependencies.
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/langchain-tutorials.git
-    cd langchain-tutorials
-    ```
-
-2. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Linux/Mac
-    venv\Scripts\activate  # For Windows
-    ```
-
-3. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Install LangChain (if it's not listed in `requirements.txt`):
-    ```bash
-    pip install langchain
-    ```
-
-Now you're ready to run the tutorials!
-
 ## Tutorials
 
 Here’s a list of the tutorials provided in this repository:
@@ -61,6 +31,8 @@ Here’s a list of the tutorials provided in this repository:
 1. **langchain-HF-local-RAG**  
    - A step-by-step guide to creating a system that combines language models with external knowledge retrieval.
    - Learn how to generate and use embeddings to improve retrieval and document similarity.
+2. **langchain-chat-vector-bd**
+    - Explained about working on context based chst
 
 2. **Contextual Retrieval with LangChain** (upcoming) 
    Implement advanced retrieval techniques such as overlapping chunks and top-K filtering using cosine similarity.
