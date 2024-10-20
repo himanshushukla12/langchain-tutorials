@@ -1,0 +1,6 @@
+llama-cpp-python[cublas]
+langchain-ollama
+ollama
+gradio
+langchain-community
+langchain-huggingface
